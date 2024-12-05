@@ -1,0 +1,19 @@
+{ 
+    "routes": [ 
+        { 
+            "src": "/productos", 
+            "methods": ["POST"], 
+            "dest": "/apiProd/index.js" 
+        }, 
+        { 
+            "src": "/productos", 
+            "methods": ["GET"], 
+            "dest": "/apiProd/index.js" 
+        }, 
+        { 
+            "src": "/productos/:id", 
+            "methods": ["GET"], 
+            "dest": "/apiProd/index.js" 
+        } 
+    ]
+}
